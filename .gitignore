@@ -1,7 +1,11 @@
+*.pdf
 *.aux
 *.dvi
 *.fdb_latexmk
 *.fls
 *.log
 *.out
-*.pdf
+*.xdv
+/.auctex-auto/
+
+/.direnv/

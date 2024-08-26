@@ -31,8 +31,8 @@
 % helper commands
 \renewcommand*{\link}[2][]{%
   \ifthenelse{\equal{#1}{}}%
-    {\href{#2}{\color{link}\faExternalLink\,#2}}%
-    {\href{#2}{\color{link}\faExternalLink\,#1}}}
+    {\href{#2}{\color{link}\faExternalLink*\,#2}}%
+    {\href{#2}{\color{link}\faExternalLink*\,#1}}}
 
 \newcommand*{\githublink}[1]{\href{https://github.com/#1}{\color{link}\githubsocialsymbol#1}}%
 
